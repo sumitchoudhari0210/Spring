@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Di Student_College_secondary_ref/src/com/cjc/secondary_ref/Application.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.cjc.secondary_ref.Application"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Di Student_College_secondary_ref"/>
+</launchConfiguration>

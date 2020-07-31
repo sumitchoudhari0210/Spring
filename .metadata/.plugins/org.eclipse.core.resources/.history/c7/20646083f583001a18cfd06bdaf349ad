@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      
+       
+        <bean id="b" class="com.autowrite.bytype.Bankdetails">
+        
+        <constructor-arg type="String" value="920010117710"></constructor-arg>
+       <constructor-arg type="String" value="bank of india"></constructor-arg>
+        <constructor-arg type="String" value="nagpur"></constructor-arg>
+         
+         </bean>
+           
+        <bean id="s"   class="com.autowrite.bytype.Employee" autowire="constructor">
+       <constructor-arg type="int" value="101"></constructor-arg>
+       <constructor-arg type="String" value="Sumit"></constructor-arg>
+       <constructor-arg type="String" value="8793557561"></constructor-arg>
+       
+        </bean>
+        
+      
+     
+        </beans>

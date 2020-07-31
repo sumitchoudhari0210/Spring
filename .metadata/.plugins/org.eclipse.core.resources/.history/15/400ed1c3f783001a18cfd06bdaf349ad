@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      
+       
+        <bean id="b" class="com.autowrite.bytype.Bankdetails">
+        <property name="accountno" value="354565746854"></property>
+        <property name="bankname" value="bank of Maharahtra"></property>
+          <property name="addr" value="nagpur"></property>
+         </bean>
+           
+        <bean id="s"   class="com.autowrite.bytype.Employee" autowire="byType">
+         <property name="empid" value="101"></property>
+         <property name="empname" value="SUMIT"></property>
+          <property name="empmobno" value="8793557561"></property>
+        </bean>
+        
+      
+     
+        </beans>

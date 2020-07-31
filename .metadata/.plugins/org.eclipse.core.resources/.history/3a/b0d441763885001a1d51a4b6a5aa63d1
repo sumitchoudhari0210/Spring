@@ -1,0 +1,6 @@
+package com.cjc.combi.bank.empl;
+
+public class Employee {
+public Employee(){System.out.println("Employee class");}
+public BankDetails bd;
+}

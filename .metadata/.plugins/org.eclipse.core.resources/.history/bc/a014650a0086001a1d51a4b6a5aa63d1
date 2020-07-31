@@ -1,0 +1,9 @@
+package com.cjc.javabased_di_SecondaryRef_Constbased;
+
+public class BankDetails {
+	private int accountno;
+	private String bankname;
+	private String address;
+	
+
+}

@@ -1,0 +1,26 @@
+package com.cjc.javabased_di_Constructor;
+
+public class Student {
+	private int id;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getMobno() {
+		return mobno;
+	}
+	public void setMobno(String mobno) {
+		this.mobno = mobno;
+	}
+	private String name;
+	private String mobno;
+
+}

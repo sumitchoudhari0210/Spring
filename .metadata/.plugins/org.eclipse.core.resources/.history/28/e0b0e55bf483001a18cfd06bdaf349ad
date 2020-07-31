@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      
+       
+        <bean id="add" class="com.autowrite.byconstructor.Address">
+        <constructor-arg type="String" value="karvenagr"> </constructor-arg>
+        <constructor-arg type="String" value="pune"></constructor-arg>
+         </bean>
+           
+        <bean id="s"   class="com.autowrite.byconstructor.Student" autowire="constructor">
+        <constructor-arg type="int" value="101"></constructor-arg>
+        <constructor-arg type="String" value="ram"></constructor-arg>
+        </bean>
+        
+      
+     
+        </beans>

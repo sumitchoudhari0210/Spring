@@ -1,0 +1,26 @@
+package com.cjc.secondary_ref;
+
+public class CollegeDetails {
+	private int collegeid;
+	private int collegename;
+	private int address;
+	public int getCollegeid() {
+		return collegeid;
+	}
+	public void setCollegeid(int collegeid) {
+		this.collegeid = collegeid;
+	}
+	public int getCollegename() {
+		return collegename;
+	}
+	public void setCollegename(int collegename) {
+		this.collegename = collegename;
+	}
+	public int getAddress() {
+		return address;
+	}
+	public void setAddress(int address) {
+		this.address = address;
+	}
+
+}

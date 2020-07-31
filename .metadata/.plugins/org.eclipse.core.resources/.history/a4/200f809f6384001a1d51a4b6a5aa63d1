@@ -1,0 +1,21 @@
+package com.cjc.adhar;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class Test {
+	public static void main(String[] args) {
+
+		ApplicationContext apc = new ClassPathXmlApplicationContext("bean.xml");
+
+		Adhar adh = apc.getBean("con", Adhar.class);
+
+		System.out.println(adh.getAdharCardHoldername());
+		System.out.println(adh.getAdharno());
+		System.out.println(adh.getDateofBirth());
+		System.out.println(adh.getAddress());
+	
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+       <bean id="s"   class="com.combi.setter.and.connstructor.Student">
+ <constructor-arg value="102"> </constructor-arg>
+       <constructor-arg value="ram"></constructor-arg>
+       <constructor-arg value="pune"></constructor-arg> 
+       
+        
+        <property name="rollno" value="103"></property>
+         <property name="name" value="shubham"></property>
+         <property name="addr" value="nagpur"></property>
+        
+        
+       </bean>
+     
+        </beans>

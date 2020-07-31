@@ -1,0 +1,12 @@
+package com.cjc.javabased_di_SecondaryRef;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Employee {
+	private int empid;
+	private String empname;
+	private String empmobno;
+	@Autowired
+	private BankDetails bd;
+	
+}

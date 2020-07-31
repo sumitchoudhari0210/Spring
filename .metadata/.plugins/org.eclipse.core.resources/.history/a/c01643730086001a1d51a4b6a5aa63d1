@@ -1,0 +1,25 @@
+package com.cjc.javabased_di_SecondaryRef_Constbased;
+
+import org.springframework.context.annotation.Bean;
+
+
+
+public class AppConfig {
+	@Bean(name = "emp")
+	public Employee emp()
+	    {
+		Employee e1= new Employee(123,"Sumit","8793557561");
+		
+		return e1;
+		}
+		
+		@Bean
+		public BankDetails bd()
+		{
+			BankDetails bd1= new BankDetails();
+			bd1.setAccountno(35362802);
+			bd1.setBankname("Bank Of Maharashtra");
+			bd1.setAddress("Nagpur");
+			return bd1;
+		}
+}

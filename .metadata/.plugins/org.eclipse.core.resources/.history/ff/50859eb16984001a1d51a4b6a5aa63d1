@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+      
+       
+        <bean id="collegede" class="com.cjc.secondary_ref.CollegeDetails">
+        <property name="collegeid" value="253"></property>
+        <property name="collegename" value="St. Joseph"></property>
+         <property name="address" value="civil lines"></property>
+        
+         </bean>
+           
+        <bean id="s"   class="com.cjc.secondary_ref.Student" autowire="byName">
+         <property name="id" value="101"></property>
+         <property name="name" value="sumit"></property>
+          <property name="mobno" value="8793557561"></property>
+        </bean>
+        
+      
+     
+        </beans>

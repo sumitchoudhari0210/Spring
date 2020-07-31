@@ -1,0 +1,9 @@
+package com.cjc.adhar;
+
+public class Adhar {
+	private int adharno;
+    private String	adharCardHoldername;
+    private String dateofBirth,
+    private String address
+
+}

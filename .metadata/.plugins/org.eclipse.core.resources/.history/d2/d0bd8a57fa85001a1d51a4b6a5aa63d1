@@ -1,0 +1,5 @@
+package com.cjc.javabased_di_SecondaryRef;
+
+public class AppConfig {
+
+}
